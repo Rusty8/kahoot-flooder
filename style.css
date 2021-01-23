@@ -1,0 +1,96 @@
+@keyframes bgcolor {
+  0% {
+      background-color: #70acd6
+  }
+
+  30% {
+      background-color: #7ac455
+  }
+
+  60% {
+      background-color: #ca8c62
+  }
+
+  90% {
+      background-color: rgb(253, 84, 84)
+  }
+
+  100% {
+      background-color: #8c58c0
+  }
+}
+
+body {
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+  
+  
+  h1 {
+    color: green;
+  }
+
+  ::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+ input { 
+  text-align: center; 
+}
+.default{
+  border: 2px solid transparent;
+  }
+  
+  .new{
+  border: 2px solid red;
+  }
+  div.parentElement{text-align: center;}
+
+
+
+
+
+
+   
+ 
+  button {
+    background-color: #333333;
+    border: none;
+    color: white;
+    text-align: center;
+    line-height: 16px;
+    
+    text-decoration: none;
+    display: solid;
+    font-size: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    width:900000000;
+  }
+  .button {
+    border-radius: 4px;
+  }
+ 
+  
+  
+  
+  
+
+
+
+
+
+ 

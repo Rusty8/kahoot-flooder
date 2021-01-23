@@ -1,0 +1,21 @@
+{
+  "name": "kahoot_flood",
+  "version": "1.0.0",
+  "description": "kahoot bot flooder",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "kahoot.js-updated": "^2.3.2",
+    "socket.io": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+    
+  },
+  "author": "Rusty8",
+  "license": "MIT"
+}
